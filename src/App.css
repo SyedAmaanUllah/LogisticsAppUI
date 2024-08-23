@@ -36,3 +36,330 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+/* Container for the shipment list */
+.shipment-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Styles for the shipment table */
+.shipment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shipment-table th, .shipment-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.shipment-table th {
+  background-color: #282c34;
+  color: white;
+}
+
+.shipment-table tr:hover {
+  background-color: #f1f1f1; /* Change background on hover */
+}
+
+/* Button styles */
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #61dafb;
+  color: black;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #5bb8e5; /* Darker shade on hover */
+}
+
+.delete-button:hover {
+  background-color: #e04343; /* Darker shade on hover */
+}
+
+/* Error message style */
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+/* App.css */
+/* App.css */
+
+/* Styles for the shipment form */
+.shipment-form {
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 500px; /* Set a maximum width for the form */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%; /* Keep input fields full width of the form */
+  max-width: 400px; /* Set a maximum width for input fields */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+.form-group input:focus {
+  border-color: #61dafb; /* Highlight input on focus */
+  outline: none; /* Remove outline */
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  max-width: 200px; /* Set a maximum width for the button */
+  display: block; /* Center button below inputs */
+  margin: 0 auto; /* Center button */
+}
+
+.submit-button:hover {
+  background-color: #5bb8e5; /* Darker shade on hover */
+}
+button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+/* Container for the shipment list */
+.shipment-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Styles for the shipment table */
+.shipment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shipment-table th, .shipment-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.shipment-table th {
+  background-color: #282c34;
+  color: white;
+}
+
+.shipment-table tr:hover {
+  background-color: #f1f1f1; /* Change background on hover */
+}
+
+/* Button styles */
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #61dafb;
+  color: black;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #5bb8e5; /* Darker shade on hover */
+}
+
+.delete-button:hover {
+  background-color: #e04343; /* Darker shade on hover */
+}
+
+/* Error message style */
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+/* App.css */
+/* App.css */
+
+/* Styles for the shipment form */
+.shipment-form {
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 500px; /* Set a maximum width for the form */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%; /* Keep input fields full width of the form */
+  max-width: 400px; /* Set a maximum width for input fields */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+.form-group input:focus {
+  border-color: #61dafb; /* Highlight input on focus */
+  outline: none; /* Remove outline */
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  max-width: 200px; /* Set a maximum width for the button */
+  display: block; /* Center button below inputs */
+  margin: 0 auto; /* Center button */
+}
+
+.submit-button:hover {
+  background-color: #5bb8e5; /* Darker shade on hover */
+}
+button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.form-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px; /* Adds a 10px gap between the buttons */
+  justify-content: center;
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-buttons button[type="button"] {
+  background-color: #f44336; /* Red color for the "Back to List" button */
+}
+
+.form-buttons button[type="button"]:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
